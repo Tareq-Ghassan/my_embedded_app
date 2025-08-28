@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
+class CXTestRT extends StatefulWidget {
+  const CXTestRT({super.key, required this.title});
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
@@ -13,12 +12,11 @@ class MyHomePage extends StatefulWidget {
   // always marked "final".
 
   final String title;
-
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<CXTestRT> createState() => _CXTestRTState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _CXTestRTState extends State<CXTestRT> {
   int _counter = 0;
 
   void _incrementCounter() {
